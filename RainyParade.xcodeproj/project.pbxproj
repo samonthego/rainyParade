@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58FF2401E9D818500225D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FF23F1E9D818500225D72 /* AppDelegate.swift */; };
+		F58FF2421E9D818500225D72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FF2411E9D818500225D72 /* ViewController.swift */; };
+		F58FF2451E9D818500225D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FF2431E9D818500225D72 /* Main.storyboard */; };
+		F58FF2481E9D818500225D72 /* RainyParade.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F58FF2461E9D818500225D72 /* RainyParade.xcdatamodeld */; };
+		F58FF24A1E9D818500225D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58FF2491E9D818500225D72 /* Assets.xcassets */; };
+		F58FF24D1E9D818500225D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FF24B1E9D818500225D72 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F58FF23C1E9D818500225D72 /* RainyParade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyParade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58FF23F1E9D818500225D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F58FF2411E9D818500225D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F58FF2441E9D818500225D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58FF2471E9D818500225D72 /* RainyParade.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RainyParade.xcdatamodel; sourceTree = "<group>"; };
+		F58FF2491E9D818500225D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58FF24C1E9D818500225D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58FF24E1E9D818500225D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58FF2391E9D818500225D72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58FF2331E9D818500225D72 = {
+			isa = PBXGroup;
+			children = (
+				F58FF23E1E9D818500225D72 /* RainyParade */,
+				F58FF23D1E9D818500225D72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58FF23D1E9D818500225D72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58FF23C1E9D818500225D72 /* RainyParade.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58FF23E1E9D818500225D72 /* RainyParade */ = {
+			isa = PBXGroup;
+			children = (
+				F58FF23F1E9D818500225D72 /* AppDelegate.swift */,
+				F58FF2411E9D818500225D72 /* ViewController.swift */,
+				F58FF2431E9D818500225D72 /* Main.storyboard */,
+				F58FF2491E9D818500225D72 /* Assets.xcassets */,
+				F58FF24B1E9D818500225D72 /* LaunchScreen.storyboard */,
+				F58FF24E1E9D818500225D72 /* Info.plist */,
+				F58FF2461E9D818500225D72 /* RainyParade.xcdatamodeld */,
+			);
+			path = RainyParade;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58FF23B1E9D818500225D72 /* RainyParade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58FF2511E9D818500225D72 /* Build configuration list for PBXNativeTarget "RainyParade" */;
+			buildPhases = (
+				F58FF2381E9D818500225D72 /* Sources */,
+				F58FF2391E9D818500225D72 /* Frameworks */,
+				F58FF23A1E9D818500225D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainyParade;
+			productName = RainyParade;
+			productReference = F58FF23C1E9D818500225D72 /* RainyParade.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58FF2341E9D818500225D72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Samuel MCDONALD";
+				TargetAttributes = {
+					F58FF23B1E9D818500225D72 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 77L5QA924Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F58FF2371E9D818500225D72 /* Build configuration list for PBXProject "RainyParade" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58FF2331E9D818500225D72;
+			productRefGroup = F58FF23D1E9D818500225D72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58FF23B1E9D818500225D72 /* RainyParade */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58FF23A1E9D818500225D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58FF24D1E9D818500225D72 /* LaunchScreen.storyboard in Resources */,
+				F58FF24A1E9D818500225D72 /* Assets.xcassets in Resources */,
+				F58FF2451E9D818500225D72 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58FF2381E9D818500225D72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58FF2421E9D818500225D72 /* ViewController.swift in Sources */,
+				F58FF2481E9D818500225D72 /* RainyParade.xcdatamodeld in Sources */,
+				F58FF2401E9D818500225D72 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F58FF2431E9D818500225D72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58FF2441E9D818500225D72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58FF24B1E9D818500225D72 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58FF24C1E9D818500225D72 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58FF24F1E9D818500225D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58FF2501E9D818500225D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58FF2521E9D818500225D72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77L5QA924Y;
+				INFOPLIST_FILE = RainyParade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vmsi.RainyParade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F58FF2531E9D818500225D72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 77L5QA924Y;
+				INFOPLIST_FILE = RainyParade/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vmsi.RainyParade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58FF2371E9D818500225D72 /* Build configuration list for PBXProject "RainyParade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58FF24F1E9D818500225D72 /* Debug */,
+				F58FF2501E9D818500225D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58FF2511E9D818500225D72 /* Build configuration list for PBXNativeTarget "RainyParade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58FF2521E9D818500225D72 /* Debug */,
+				F58FF2531E9D818500225D72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F58FF2461E9D818500225D72 /* RainyParade.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F58FF2471E9D818500225D72 /* RainyParade.xcdatamodel */,
+			);
+			currentVersion = F58FF2471E9D818500225D72 /* RainyParade.xcdatamodel */;
+			path = RainyParade.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F58FF2341E9D818500225D72 /* Project object */;
+}
