@@ -112,13 +112,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzM-qP-Rf0">
-                                <rect key="frame" x="122" y="501" width="69" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2tF-1g-htD">
                                 <rect key="frame" x="16" y="72" width="97" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -181,20 +174,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Event Lasts: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pbT-Dg-xFv">
-                                <rect key="frame" x="6" y="497" width="98" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="WlA-6R-Lyg">
-                                <rect key="frame" x="265" y="497" width="94" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="valueChangedWithStepper:" destination="YIg-GI-zAl" eventType="valueChanged" id="fl3-Na-rqC"/>
-                                </connections>
-                            </stepper>
                         </subviews>
                         <color key="backgroundColor" red="0.083760645675420076" green="0.92956550136839378" blue="0.79900402162071527" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
@@ -214,15 +193,12 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="cancelButton" destination="DsH-DH-t0R" id="Ubw-Pr-r7Z"/>
-                        <outlet property="durationStepper" destination="WlA-6R-Lyg" id="RsW-BW-8ng"/>
                         <outlet property="mapButton" destination="qNp-OZ-vt9" id="Itk-0o-Al4"/>
                         <outlet property="myLocationNameTextField" destination="zF5-8i-dxL" id="6Ul-nL-PkX"/>
-                        <outlet property="myTargetHourDuration" destination="xzM-qP-Rf0" id="cpK-Ru-d4D"/>
                         <outlet property="saveButton" destination="pV1-g2-KyH" id="dAF-7X-dcw"/>
                         <outlet property="targetLocLatTextField" destination="MJE-lL-Exr" id="cbA-Wq-LEW"/>
                         <outlet property="targetLocLongTextField" destination="Ief-Qc-R4b" id="swt-cw-loF"/>
                         <outlet property="targetTimeStartPicker" destination="HiO-XR-hi8" id="wbM-Jy-PeA"/>
-                        <outlet property="view" destination="WlA-6R-Lyg" id="ygy-25-dGE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nc2-G6-lDu" userLabel="First Responder" sceneMemberID="firstResponder"/>

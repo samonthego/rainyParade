@@ -97,14 +97,14 @@ class MyDetailViewController: UIViewController {
     }
     
     
-    @IBAction func valueChanged(stepper: UIStepper){
+   /* @IBAction func valueChanged(stepper: UIStepper){
         var dtime = Int16(stepper.value)
         dtime = currentRainCoat?.targetHourDuration ?? 1
         print("stepper is  \(String(describing: currentRainCoat?.targetHourDuration))  \(dtime)")
         if dtime < 10 { dtime = dtime + 1}
         currentRainCoat?.targetHourDuration = dtime
         
-    }
+    }*/
     
     
         
