@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F560D3681EABBBE600E37672 /* MyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F560D3671EABBBE600E37672 /* MyDetailViewController.swift */; };
+		F562F8371EAEC34500855987 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F82A1EAEC34500855987 /* cloud.png */; };
+		F562F8381EAEC34500855987 /* cloudy.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F82B1EAEC34500855987 /* cloudy.png */; };
+		F562F8391EAEC34500855987 /* cloudy-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F82C1EAEC34500855987 /* cloudy-1.png */; };
+		F562F83A1EAEC34500855987 /* haze-3.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F82D1EAEC34500855987 /* haze-3.png */; };
+		F562F83B1EAEC34500855987 /* moon.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F82E1EAEC34500855987 /* moon.png */; };
+		F562F83C1EAEC34500855987 /* rain.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F82F1EAEC34500855987 /* rain.png */; };
+		F562F83D1EAEC34500855987 /* rain-6.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8301EAEC34500855987 /* rain-6.png */; };
+		F562F83E1EAEC34500855987 /* rain-12.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8311EAEC34500855987 /* rain-12.png */; };
+		F562F83F1EAEC34500855987 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8321EAEC34500855987 /* snow.png */; };
+		F562F8401EAEC34500855987 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8331EAEC34500855987 /* sun.png */; };
+		F562F8411EAEC34500855987 /* weathercock.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8341EAEC34500855987 /* weathercock.png */; };
+		F562F8421EAEC34500855987 /* wind.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8351EAEC34500855987 /* wind.png */; };
+		F562F8431EAEC34500855987 /* wind-1.png in Resources */ = {isa = PBXBuildFile; fileRef = F562F8361EAEC34500855987 /* wind-1.png */; };
+		F562FF041EAF6B7B0045BE8B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = F562FF031EAF6B7B0045BE8B /* Reachability.swift */; };
+		F562FF061EAF6BE20045BE8B /* DSData.plist in Resources */ = {isa = PBXBuildFile; fileRef = F562FF051EAF6BE20045BE8B /* DSData.plist */; };
 		F58FF2401E9D818500225D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FF23F1E9D818500225D72 /* AppDelegate.swift */; };
 		F58FF2421E9D818500225D72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58FF2411E9D818500225D72 /* ViewController.swift */; };
 		F58FF2451E9D818500225D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58FF2431E9D818500225D72 /* Main.storyboard */; };
@@ -16,6 +32,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F560D3671EABBBE600E37672 /* MyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyDetailViewController.swift; sourceTree = "<group>"; };
+		F562F82A1EAEC34500855987 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud.png; sourceTree = "<group>"; };
+		F562F82B1EAEC34500855987 /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
+		F562F82C1EAEC34500855987 /* cloudy-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloudy-1.png"; sourceTree = "<group>"; };
+		F562F82D1EAEC34500855987 /* haze-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "haze-3.png"; sourceTree = "<group>"; };
+		F562F82E1EAEC34500855987 /* moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moon.png; sourceTree = "<group>"; };
+		F562F82F1EAEC34500855987 /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		F562F8301EAEC34500855987 /* rain-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain-6.png"; sourceTree = "<group>"; };
+		F562F8311EAEC34500855987 /* rain-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain-12.png"; sourceTree = "<group>"; };
+		F562F8321EAEC34500855987 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		F562F8331EAEC34500855987 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		F562F8341EAEC34500855987 /* weathercock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weathercock.png; sourceTree = "<group>"; };
+		F562F8351EAEC34500855987 /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		F562F8361EAEC34500855987 /* wind-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wind-1.png"; sourceTree = "<group>"; };
+		F562FF031EAF6B7B0045BE8B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		F562FF051EAF6BE20045BE8B /* DSData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DSData.plist; sourceTree = "<group>"; };
 		F58FF23C1E9D818500225D72 /* RainyParade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainyParade.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58FF23F1E9D818500225D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F58FF2411E9D818500225D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,9 +92,25 @@
 				F58FF2411E9D818500225D72 /* ViewController.swift */,
 				F58FF2431E9D818500225D72 /* Main.storyboard */,
 				F58FF2491E9D818500225D72 /* Assets.xcassets */,
+				F562F82A1EAEC34500855987 /* cloud.png */,
+				F562F82B1EAEC34500855987 /* cloudy.png */,
+				F562F82C1EAEC34500855987 /* cloudy-1.png */,
+				F562F82D1EAEC34500855987 /* haze-3.png */,
+				F562F82E1EAEC34500855987 /* moon.png */,
+				F562F82F1EAEC34500855987 /* rain.png */,
+				F562F8301EAEC34500855987 /* rain-6.png */,
+				F562F8311EAEC34500855987 /* rain-12.png */,
+				F562F8321EAEC34500855987 /* snow.png */,
+				F562F8331EAEC34500855987 /* sun.png */,
+				F562F8341EAEC34500855987 /* weathercock.png */,
+				F562F8351EAEC34500855987 /* wind.png */,
+				F562F8361EAEC34500855987 /* wind-1.png */,
 				F58FF24B1E9D818500225D72 /* LaunchScreen.storyboard */,
 				F58FF24E1E9D818500225D72 /* Info.plist */,
 				F58FF2461E9D818500225D72 /* RainyParade.xcdatamodeld */,
+				F560D3671EABBBE600E37672 /* MyDetailViewController.swift */,
+				F562FF031EAF6B7B0045BE8B /* Reachability.swift */,
+				F562FF051EAF6BE20045BE8B /* DSData.plist */,
 			);
 			path = RainyParade;
 			sourceTree = "<group>";
@@ -127,9 +175,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F562FF061EAF6BE20045BE8B /* DSData.plist in Resources */,
+				F562F8401EAEC34500855987 /* sun.png in Resources */,
+				F562F83D1EAEC34500855987 /* rain-6.png in Resources */,
+				F562F83E1EAEC34500855987 /* rain-12.png in Resources */,
+				F562F83F1EAEC34500855987 /* snow.png in Resources */,
 				F58FF24D1E9D818500225D72 /* LaunchScreen.storyboard in Resources */,
+				F562F8391EAEC34500855987 /* cloudy-1.png in Resources */,
+				F562F83C1EAEC34500855987 /* rain.png in Resources */,
+				F562F83A1EAEC34500855987 /* haze-3.png in Resources */,
 				F58FF24A1E9D818500225D72 /* Assets.xcassets in Resources */,
+				F562F83B1EAEC34500855987 /* moon.png in Resources */,
 				F58FF2451E9D818500225D72 /* Main.storyboard in Resources */,
+				F562F8421EAEC34500855987 /* wind.png in Resources */,
+				F562F8381EAEC34500855987 /* cloudy.png in Resources */,
+				F562F8431EAEC34500855987 /* wind-1.png in Resources */,
+				F562F8411EAEC34500855987 /* weathercock.png in Resources */,
+				F562F8371EAEC34500855987 /* cloud.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F560D3681EABBBE600E37672 /* MyDetailViewController.swift in Sources */,
 				F58FF2421E9D818500225D72 /* ViewController.swift in Sources */,
 				F58FF2481E9D818500225D72 /* RainyParade.xcdatamodeld in Sources */,
+				F562FF041EAF6B7B0045BE8B /* Reachability.swift in Sources */,
 				F58FF2401E9D818500225D72 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +372,7 @@
 				F58FF2531E9D818500225D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

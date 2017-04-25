@@ -14,6 +14,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    
+    //MARK: - Core Data Methods
+    
+    func fetchAllRainCoats() -> [RainCoat]{
+        let fetchRequest = NSFetchRequest<RainCoat>(entityName: "RainCoat") 
+        let sortDescriptor1 = NSSortDescriptor(key: "targetTimeStart", ascending: true)
+        let sortDescriptor2 = NSSortDescriptor(key: "myLocationName", ascending: true)
+        fetchRequest.sortDescriptors =  [sortDescriptor1, sortDescriptor2]
+        var results = [RainCoat]()
+        do {
+            results = try persistentContainer.viewContext.fetch(fetchRequest)
+        } catch let error as NSError {
+            print("Fetch Error \(error)")
+        }
+        return results
+    }
+    
+
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.

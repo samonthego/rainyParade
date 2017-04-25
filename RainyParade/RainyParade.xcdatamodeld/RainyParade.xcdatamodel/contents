@@ -1,4 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="RainCoat" representedClassName="RainCoat" syncable="YES" codeGenerationType="class">
+        <attribute name="averageTemp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="chancePercipitation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dateCreated" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="dateModified" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="lastWeatherUpdate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="myLocationName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetHourDuration" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="targetLocLat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetLocLong" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="targetTimeStart" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="weatherIcon" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RainCoat" positionX="-63" positionY="-18" width="128" height="210"/>
+    </elements>
 </model>
