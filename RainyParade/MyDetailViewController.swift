@@ -48,7 +48,10 @@ class MyDetailViewController: UIViewController {
         print (" working set Values")
         if let _ = currentRainCoat {
             rainCoat.dateModified = NSDate()
-            
+            rainCoat.myLocationName = myLocationNameTextField.text ?? "Fort Mackinaw"
+            rainCoat.targetLocLat = targetLocLatTextField.text ?? "45.851803"
+            rainCoat.targetLocLong =  targetLocLongTextField.text ?? "84.616937"
+            rainCoat.targetTimeStart = targetTimeStartPicker.date as NSDate
         }else{
             rainCoat.dateCreated = NSDate()
             rainCoat.dateModified = NSDate()
